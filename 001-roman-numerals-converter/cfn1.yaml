@@ -47,8 +47,8 @@ Resources:
 
           yum update -y
           yum install python3 -y
-          yum install pip
-          pip install flask
+          yum install pip -y
+          pip3 install flask
 
           FOLDER="https://raw.githubusercontent.com/zakus2023/my-repository/main/001-roman-numerals-converter"
 
