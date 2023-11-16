@@ -65,6 +65,7 @@ Resources:
 
   rInstanceSecurityGroup:
     Type: AWS::EC2::SecurityGroup
+    
     Properties:
       GroupDescription: Allow HTTP and SSH
       GroupName: lb-enable-http-and-ssh
